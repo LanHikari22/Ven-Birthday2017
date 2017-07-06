@@ -1,0 +1,23 @@
+﻿body {
+}
+
+.Category_txt, .Category_txt_intro{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background-color: transparent;
+    padding-bottom: 5px;
+    color: #C0C0C0;
+    height: 33px;
+    width: 184px;
+    font-size: larger;
+}
+.header-image-wrapper {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: height .25s linear;
+    transition: height .25s linear;
+}
