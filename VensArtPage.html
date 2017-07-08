@@ -47,9 +47,8 @@
                 animation: iframe-app-cta-transition .2s ease-out;
             }
     </style>
-    <!-- [Lan]: Modified out hardcoded data -->
-    <link rel="shortcut icon" href="{Portrait-128}">
-    <link rel="apple-touch-icon-precomposed" href="{Portrait-128}">
+    <link rel="shortcut icon" href="http://68.media.tumblr.com/avatar_931e25fe5329_128.png">
+    <link rel="apple-touch-icon-precomposed" href="http://68.media.tumblr.com/avatar_931e25fe5329_128.png">
     <link rel="alternate" type="application/rss+xml" href="http://fire-lark.tumblr.com/rss">
     <link rel="stylesheet" href="http://static.tumblr.com/27gzhx7/7U9oqtroz/main-min.css">
 
@@ -280,7 +279,7 @@
             <header id="header" class="top-blog-header">
 
                 <div class="header-image-wrapper ">
-                    <a href="/" class="header-image parallax cover " data-bg-image="{Background}">
+                    <a href="/" class="header-image parallax cover " data-bg-image="http://static.tumblr.com/cf054c08a1a621bf371b9ff20b98c66e/rilknlq/wbHopyxo3/tumblr_static_tumblr_static_9qksd6csdd0kgocw8ccooggk4_focused_v3.png">
 
                     </a>
                     <div class="loader-bg"></div>
@@ -289,16 +288,16 @@
 
                 <div class="blog-title-wrapper content">
                     <figure class="avatar-wrapper animate">
-                        <a href="/" style="background-image: url({Portrait-128})" class="user-avatar"><img src="{Portrait-128}" alt="" class="print-only invisible"></a>
-                    </figure>icon
+                        <a href="/" style="background-image: url(http://68.media.tumblr.com/avatar_931e25fe5329_128.png)" class="user-avatar"><img src="http://68.media.tumblr.com/avatar_931e25fe5329_128.png" alt="" class="print-only invisible"></a>
+                    </figure>
 
                     <div class="title-group animate">
 
-                        <h1 class="blog-title"><a href="/">{Title}</a></h1>
+                        <h1 class="blog-title"><a href="/">Little things</a></h1>
 
 
                         <span class="description">
-                        {Description}
+                            Currently in One Piece hell. Contains untagged spoilers! Writing and drawing: I accept prompts for both. It'll probably take a while though. Multifandom. Icon credit to alibwabwa.
                         </span>
 
                     </div>
@@ -357,9 +356,10 @@
 
 
             <div class="container">
-                <!-- TELEPORT! This allows me to put my posts conveniently in the middle! -->
+                <!-- This allows me to put my posts conveniently in the middle! -->
                 <div class="main">
 
+                    <div>
                     <div>
                         <link href="StyleSheet.css" rel="stylesheet" />
                         <script src="PostSelection.js"></script>
@@ -368,12 +368,10 @@
                     </div>
                     <div>
                         <!-- Posts to be displayed and Category selection -->
-                        <div id="posts" w3-include-html="TumblrPosts.html" style="margin-left: 88px;"></div>
+                        <div id="posts" w3-include-html="TestPosts.html"></div>
                         <script>
-                        w3.includeHTML(document);
-                        renderPosts(document);
-                        replicateTextboxes(document);
-
+            w3.includeHTML();
+            renderPosts(document);
                         </script>
                     </div>
                 </div>

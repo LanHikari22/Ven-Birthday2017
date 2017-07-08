@@ -32,7 +32,6 @@
                     onmouseout="handle_onmouseout(id)" value="Category B"/>                                                                       
                 <input id="Category C_txt" class="Category_txt" type="text" readonly="readonly" onclick='selectCategory(id);' onmouseover="colorHovered(id)" 
                     onmouseout="handle_onmouseout(id)" value="Category C"/>
-
             </div>
         </div>
 

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+    <!-- Textboxes -->
+    <div class="CategoryWrapper">
+        <input id="HeaderTB" class="Category_txt_intro" style="font-weight: bold; text-decoration: none; border: dashed 2px; color: black;"
+               type="text" readonly="readonly" value="Select A Category" />
+        <input id="Category A_txt" class="Category_txt" type="text" readonly="readonly" onclick='selectCategory(id);' onmouseover="colorHovered(id)"
+               onmouseout="handle_onmouseout(id)" value="Category A" />
+        <input id="Category B_txt" class="Category_txt" type="text" readonly="readonly" onclick='selectCategory(id);' onmouseover="colorHovered(id)"
+               onmouseout="handle_onmouseout(id)" value="Category B" />
+        <input id="Category C_txt" class="Category_txt" type="text" readonly="readonly" onclick='selectCategory(id);' onmouseover="colorHovered(id)"
+               onmouseout="handle_onmouseout(id)" value="Category C" />
+    </div>
+
+    <!-- Category A -->
+    <div id="Category A" class="Category">
+        <div id="Name of Piece" class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/br1QNm4IBfuJflwB3lAwtw/162629113109"></div>
+    </div>
+    <!-- Category B -->
+    <div id="Category B" class="Category">
+        <div id="Name" class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/DBZuDnoBjw1YJIpwgA-KnQ/162630137681"></div>
+    </div>
+
+    <!-- Category C -->
+    <div id="Category C" class="Category">
+        <div id="gif one" class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/xUywV14VNnL8TJGGQuk9Bg/162645079850"></div>
+        <div id="gif two" class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/xUywV14VNnL8TJGGQuk9Bg/162645079850"></div>
+    </div>
+
+    <!-- Return Link to Categories -->
+    <div class="CategoryWrapper">
+        <input id="ReturnLink" class="Category_txt_intro" style="font-weight: bold; text-decoration: none; border: dashed 2px; color: black;"
+               type="text" readonly="readonly" onclick="window.location.replace('#HeaderTB')"  onmouseover="colorHovered(id)" onmouseout="handle_onmouseout(id)" value="Go back to Category Selection" />
+    </div>
+
+</body>
+</html>

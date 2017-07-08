@@ -2,27 +2,32 @@
 }
 
 .Category_txt, .Category_txt_intro{
-    border-style: none;
-    border-color: inherit;
-    border-width: 0;
-    background-color: transparent;
+    border-style: hidden;
+    border-width: 0px;
     padding-bottom: 5px;
+    background-color: transparent;
     color: #C0C0C0;
     height: 33px;
-    width: 184px;
+    width: 542px;
     font-size: larger;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.test{
+.tumblr-post{
+    color: transparent;
+}
+
+#posts{
 
 }
 
-.header-image-wrapper {
-    position: relative;
-    height: 350px;
-    overflow: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-transition: height .25s linear;
-    transition: height .25s linear;
+
+.CategoryWrapper{
+    position: relative; 
+    top: 00px; 
+    background-color: transparent;
+    width: 542px; 
+    height: 160px;
+
 }
