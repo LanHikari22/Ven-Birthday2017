@@ -5,7 +5,7 @@
     <!-- Textboxes -->
     <div class="CategoryWrapper">
         <input id="HeaderTB" class="Category_txt_intro" style="font-weight: bold; text-decoration: none; border: dashed 2px; color: black;"
-               type="text" readonly="readonly" value="|Select A Category|" />
+               type="text" readonly="readonly" value="Select A Category" />
         <input id="One Piece_txt" value="One Piece" class="Category_txt" type="text" readonly="readonly" onclick='selectCategory(id);'
                onmouseover="colorHovered(id)" onmouseout="handle_onmouseout(id)" />
         <input id="Magi_txt" value="Magi" class="Category_txt" type="text" readonly="readonly" onclick='selectCategory(id);'
@@ -76,7 +76,7 @@
     </div>
 
     <!-- Remove all links from posts -->
-    <script>
+    <!--<script>
         alert("I get executed!");
         categories = document.getElementsByClassName("Category");
         for (var i = 0; i < categories.length; i++) {
@@ -85,6 +85,6 @@
                 alert(category.childNodes[j]);
             }
         }
-    </script>
+    </script>-->
 </body>
 </html>

@@ -98,7 +98,7 @@
             }
 
         .header-image.cover {
-            background-image: url(http://static.tumblr.com/cf054c08a1a621bf371b9ff20b98c66e/rilknlq/wbHopyxo3/tumblr_static_tumblr_static_9qksd6csdd0kgocw8ccooggk4_focused_v3.png);
+            background-image: url({Background}); /* [Lan]: Modified hardcoded value */
         }
 
         .user-avatar {
@@ -143,7 +143,7 @@
 
         @media screen and (max-device-width: 568px) {
             .header-image.cover {
-                background-image: url(http://static.tumblr.com/cf054c08a1a621bf371b9ff20b98c66e/rilknlq/wbHopyxo3/tumblr_static_tumblr_static_9qksd6csdd0kgocw8ccooggk4_640.png);
+                background-image: url({Background}); /*[Lan]: Modified hardcoded value*/
                 -webkit-background-size: cover;
                 background-size: cover;
             }
@@ -158,6 +158,7 @@
         /* Custom CSS */
     </style>
     
+    <!-- [Lan]: Modified hardcoded data -->
     <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=fire-lark" />
     <link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=fire-lark" />
     <script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8938c0e77cf8b1347c2e8acd1ee607c"></script>
@@ -253,7 +254,7 @@
 
     <section id="page">
         <div class="logo-wrapper">
-            <a class="t-logo" href="https://www.tumblr.com/?referring_blog=fire-lark&amp;referer=optica" target="_blank">
+            <a class="t-logo" href="https://www.tumblr.com/?referring_blog=fire-lark&amp;referer=optica" target="_blank"> <!-- [Lan]: todo what is this for? -->
                 <svg class="svg-logo" width="29px" height="39px" viewBox="0 0 29 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <path class="large-shadow" d="M21.9956664,26.3 L21.9956664,19.0055544 L27.9954227,19.0055542 L27.9954227,13.0048828 L27.9954227,11.0108643 L23.522766,11.0108643 L23.5540067,11.6669807 L23.7388305,15.5486452 L17.6832886,15.4792482 L17.4,24 C17.5,26.3 18.8,26.5 19.8,26.5 C20.2,26.5 21.4956664,26.4 21.9956664,26.3 Z M18.7154541,4.00225829 L17.4,2.9 L17.4,8 L22.000122,7.34490957 L22.000122,4.00225829 L18.7154541,4.00225829 Z M24.3,29.6 L24.9,31.5 C23.8,32.9 21,34 18.4,34 L18.1,34 C16.3,34 14.8,33.7 13.6,33.2 C15,35.4 17.5999998,38.0021971 21.7999998,38.0021971 C21.7999996,38.6099361 22.0022113,38.0021971 22.0999998,38.0021971 C24.6999998,38.0021971 27.4,36.1 28.6,34.7 L26.7,28.8 C26,29.2 25.1,29.5 24.3,29.6 Z" id="Shape" fill="#000000"></path>
