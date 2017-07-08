@@ -1,4 +1,5 @@
 ﻿var selectedCategory = null;
+var categories = document.getElementsByClassName("Category");
             
 function get_txt(category) {
     return document.getElementById(category.id + "_txt");

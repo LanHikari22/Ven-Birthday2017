@@ -362,23 +362,17 @@
                 <div class="main">
 
                     <div>
-                        <link href="StyleSheet.css" rel="stylesheet" />
-                        <script src="PostSelection.js"></script>
-                        <script src="PostRendering.js"></script>
+                        <link href="https://rawgit.com/LanHikari22/Ven-Birthday2017/master/StyleSheet.css" rel="stylesheet" />
+                        <script src="https://rawgit.com/LanHikari22/Ven-Birthday2017/master/PostSelection.js"></script>
+                        <script  src="https://rawgit.com/LanHikari22/Ven-Birthday2017/master/PostRendering.js"></script>
                         <script src="https://www.w3schools.com/lib/w3.js"></script>
                     </div>
                     <div>
                         <!-- Posts to be displayed and Category selection -->
-                        <div id="posts0" w3-include-html="TestPosts.html" style="margin-left: 88px;"></div>
-                        <button onclick="handlePrev()">Prev</button>
-                        <button onclick="handleNext()">Next</button>
+                        <div id="posts0" w3-include-html="https://rawgit.com/LanHikari22/Ven-Birthday2017/master/TumblrPosts.html" style="margin-left: 88px;"></div>
                         <script>
-                            w3.includeHTML(document);
-                            window.setTimeout(delayedResponse0, 1000); // some delay seems to be needed for the HTML to be included by w3...
-                            function delayedResponse0() {
-                                render_unmarkall();
-                                render_n(getPostIndex(0), 5, true);
-                            }
+                        w3.includeHTML(document);
+                        renderPosts(document);
                         </script>
                     </div>
                 </div>
